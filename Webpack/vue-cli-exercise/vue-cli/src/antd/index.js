@@ -1,0 +1,11 @@
+import 'ant-design-vue/dist/antd.css';
+import Vue from "vue";
+import { Icon, notification, message, Input, Button, Layout, List, FormModel } from 'ant-design-vue';
+Vue.use(Button);
+Vue.use(Layout);
+Vue.use(List);
+Vue.use(FormModel);
+Vue.use(Input);
+Vue.use(Icon);
+Vue.prototype.$message = message;
+Vue.prototype.$notification = notification;
